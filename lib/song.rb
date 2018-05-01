@@ -42,7 +42,6 @@ class Song
   end
 
   def self.alphabetical
-    binding.pry
     self.all.sort_by {|title| title }
   end
 
